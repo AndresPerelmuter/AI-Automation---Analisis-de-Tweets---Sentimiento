@@ -82,4 +82,50 @@ Responde ÚNICAMENTE en el siguiente formato JSON, sin texto adicional ni bloque
   "explicacion": "..."
 }
 
+### Ejecuciones
+
+<img width="1037" height="723" alt="image" src="https://github.com/user-attachments/assets/0e55e4f2-661a-4074-b284-c7f763dd9acd" />
+
+### Form
+
+<img width="841" height="144" alt="image" src="https://github.com/user-attachments/assets/194aa2a6-025b-4cd2-ab3c-c3302043cbfe" />
+
+### Code Javascript
+
+<img width="843" height="129" alt="image" src="https://github.com/user-attachments/assets/3dbc6a9b-928b-48db-bb79-69deacc7d5e3" />
+
+### Creacion Fila in Supabase
+
+<img width="841" height="171" alt="image" src="https://github.com/user-attachments/assets/e68092f9-7adb-48dd-ab5f-2b802ced9dad" />
+
+### Nodo LLM 1
+
+<img width="844" height="167" alt="image" src="https://github.com/user-attachments/assets/672253fe-0f7f-4ee0-87ee-43e5bc5a29cc" />
+
+### Parsear Sentimiento
+
+<img width="853" height="232" alt="image" src="https://github.com/user-attachments/assets/a611d6a6-1263-45eb-b45c-099140bfc13e" />
+
+### Actualización Columna Sentiment en Base de Datos
+
+<img width="839" height="142" alt="image" src="https://github.com/user-attachments/assets/06e3100c-5768-4b14-afd1-c7e14315349c" />
+
+### Nodo LLM 2
+
+<img width="842" height="152" alt="image" src="https://github.com/user-attachments/assets/8a954fcc-bd0d-44ba-b765-0240dca493e6" />
+
+### Armar Email 
+
+<img width="846" height="267" alt="image" src="https://github.com/user-attachments/assets/bb0ad3a5-5b86-4971-8c14-f7ab87049c80" />
+
+### Envío Email
+
+<img width="842" height="241" alt="image" src="https://github.com/user-attachments/assets/6bc3021e-fb3e-40fc-8d03-fd59419deacc" />
+
+
+
+
+
+
+
 
