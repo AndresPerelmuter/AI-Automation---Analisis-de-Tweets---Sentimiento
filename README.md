@@ -52,9 +52,32 @@ El sistema construye un cuerpo de correo dinámico y lo envía vía **Gmail** al
 ### Diagrama del Workflow
 <img width="1220" height="379" alt="image" src="https://github.com/user-attachments/assets/04dbd41e-fb5c-482f-ae74-002a96028c89" />
 
-
 ### Formulario para publicar Tweets
 <img width="474" height="288" alt="image" src="https://github.com/user-attachments/assets/b3252021-8e56-4853-b842-c92c24c8e586" />
 
 ### Tabla de Base de Datos Supabase
 <img width="1122" height="365" alt="image" src="https://github.com/user-attachments/assets/113ab1c9-1f32-4a75-a7f5-2b5b19cd592d" />
+
+### Prompts LLM
+- Nodo 1 - Clasificación
+Eres un clasificador de sentimiento especializado en tweets en español latinoamericano. Devuelve únicamente NEGATIVO o POSITIVO en mayúsculas. Tweet: {{ $json.Tweet }}
+
+- Nodo 2 - Resumen - Explicación
+Eres un asistente de análisis de sentimientos.
+
+Se te proporciona el siguiente tweet:
+"{{ $json.tweet }}"
+
+Este tweet fue clasificado como NEGATIVO.
+
+Tu tarea es:
+1. Escribir un resumen conciso del tweet (máximo 2 oraciones).
+2. Explicar por qué fue clasificado como negativo, identificando las causas o motivos específicos presentes en el texto.
+
+Responde ÚNICAMENTE en el siguiente formato JSON, sin texto adicional ni bloques de código:
+{
+  "resumen": "...",
+  "explicacion": "..."
+}
+
+
