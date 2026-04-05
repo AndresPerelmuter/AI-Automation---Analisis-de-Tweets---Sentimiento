@@ -1,12 +1,5 @@
 # Proyecto Final — Automatización con n8n y LLMs
 
-## [Nombre de tu Curso / Bootcamp]
-
-### Estudiante: [Tu Nombre Completo Aquí]
-### Fecha: [Fecha de Entrega]
-
----
-
 ## 📝 Descripción del Proyecto
 
 Este proyecto implementa un workflow automático, robusto y escalable en n8n diseñado para la **gestión y análisis inteligente de reputación de marca en redes sociales**. El sistema automatiza el ciclo completo: desde la captura de menciones (tweets) hasta la clasificación de sentimiento con IA y la ejecución de protocolos de respuesta inmediata para casos críticos.
