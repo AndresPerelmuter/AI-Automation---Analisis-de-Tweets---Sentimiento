@@ -50,8 +50,8 @@ El sistema construye un cuerpo de correo dinámico y lo envía vía **Gmail** al
 ## 📸 Evidencia Visual
 
 ### Diagrama del Workflow
-![Workflow Screenshot](assets/workflow_screenshot.png)  
-*(Captura de pantalla de los nodos conectados en n8n)*.
+<img width="1220" height="379" alt="image" src="https://github.com/user-attachments/assets/04dbd41e-fb5c-482f-ae74-002a96028c89" />
+
 
 ### Demostración en Video
 Puedes ver el funcionamiento del sistema, desde la carga del tweet hasta la llegada del correo de alerta, en el siguiente enlace:
