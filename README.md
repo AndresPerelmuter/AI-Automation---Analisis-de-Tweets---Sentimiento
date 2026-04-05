@@ -1,4 +1,12 @@
-# Proyecto Final: Sistema Inteligente de Monitoreo de Reputación (n8n + LLMs)
+# Proyecto Final: Analisis de Tweets - Sentimiento (n8n + LLMs)
+
+Objetivo:
+
+•	Implementar un workflow automático y robusto en n8n que integre al menos dos nodos de Modelos de Lenguaje Grande (LLMs), condicionales basados en la salida de un LLM y un mecanismo de notificación.
+
+•	El propósito es demostrar la capacidad de diseñar, encadenar y orquestar modelos de lenguaje dentro de un flujo automatizado que reaccione a eventos reales y dirija acciones según lógica condicional.
+<img width="468" height="170" alt="image" src="https://github.com/user-attachments/assets/e4071ec6-4ea8-46b1-98d5-434206714fcb" />
+
 
 Este proyecto presenta un ecosistema automatizado para la captura, análisis y gestión de menciones de marca en redes sociales. Utiliza una arquitectura de **IA Agéntica** para clasificar el sentimiento de los usuarios y disparar protocolos de respuesta inmediata ante crisis reputacionales.
 
