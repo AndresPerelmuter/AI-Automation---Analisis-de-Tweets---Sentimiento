@@ -60,9 +60,11 @@ El sistema construye un cuerpo de correo dinámico y lo envía vía **Gmail** al
 
 ### Prompts LLM
 - Nodo 1 - Clasificación
+- 
 Eres un clasificador de sentimiento especializado en tweets en español latinoamericano. Devuelve únicamente NEGATIVO o POSITIVO en mayúsculas. Tweet: {{ $json.Tweet }}
 
 - Nodo 2 - Resumen - Explicación
+- 
 Eres un asistente de análisis de sentimientos.
 
 Se te proporciona el siguiente tweet:
