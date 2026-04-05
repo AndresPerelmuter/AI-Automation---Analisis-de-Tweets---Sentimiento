@@ -53,17 +53,8 @@ El sistema construye un cuerpo de correo dinámico y lo envía vía **Gmail** al
 <img width="1220" height="379" alt="image" src="https://github.com/user-attachments/assets/04dbd41e-fb5c-482f-ae74-002a96028c89" />
 
 
-### Demostración en Video
-Puedes ver el funcionamiento del sistema, desde la carga del tweet hasta la llegada del correo de alerta, en el siguiente enlace:
-[📺 Ver Video Demo](assets/demo.mp4)
+### Formulario para publicar Tweets
+<img width="474" height="288" alt="image" src="https://github.com/user-attachments/assets/b3252021-8e56-4853-b842-c92c24c8e586" />
 
----
-
-## 🚀 Cómo Replicar este Proyecto
-1.  **Importar Workflow:** Descarga el archivo `Análisis de Tweets - Sentimiento.json` e impórtalo en tu instancia de n8n.
-2.  **Configurar Supabase:** Crea una tabla llamada `Tweets` con las columnas necesarias (`Tweet`, `Sentiment`, `created_at`).
-3.  **Configurar Credenciales:**
-    * API Key de **Google Gemini**.
-    * URL y Key de **Supabase**.
-    * Autorización **Gmail OAuth2** para el envío de correos.
-4.  **Ejecutar:** Activa el flujo y realiza una prueba mediante el formulario de entrada.
+### Tabla de Base de Datos Supabase
+<img width="1122" height="365" alt="image" src="https://github.com/user-attachments/assets/113ab1c9-1f32-4a75-a7f5-2b5b19cd592d" />
